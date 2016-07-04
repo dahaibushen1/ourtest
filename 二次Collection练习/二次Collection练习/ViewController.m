@@ -125,7 +125,7 @@ static NSInteger count = 0;
             [assetGroups addObject:group];
             
             count=[group numberOfAssets];
-            
+            NSLog(@"woyebuzhidao ");
         }
         
     };
