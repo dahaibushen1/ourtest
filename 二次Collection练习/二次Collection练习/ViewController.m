@@ -59,8 +59,10 @@ static NSInteger count = 0;
     
     //获取本地相片库中的图片
     //[self getAllPictures];
+    NSLog(@"hellow world");
     
 }
+
 
 #pragma mark 加载时候，有点慢
 -(void)getAllPictures{
@@ -105,7 +107,6 @@ static NSInteger count = 0;
                  
                         failureBlock:^(NSError *error){
                             
-                            NSLog(@"operation was not successfull!");
                         } ];
             }
             
@@ -138,7 +139,8 @@ static NSInteger count = 0;
                            usingBlock:assetGroupEnumerator
      
                          failureBlock:^(NSError *error) {
-                             NSLog(@"There is an error");
+
+                             NSLog(@"it is wrong ");
                          }];
     
 }
