@@ -61,6 +61,8 @@ static NSInteger count = 0;
     //[self getAllPictures];
     NSLog(@"hellow world");
     NSLog(@"111111111111111111111111111");
+    NSLog(@"look here 222222222222222");
+
     
 }
 
