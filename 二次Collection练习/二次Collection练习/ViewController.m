@@ -60,6 +60,7 @@ static NSInteger count = 0;
     //获取本地相片库中的图片
     //[self getAllPictures];
     NSLog(@"hellow world");
+    NSLog(@"111111111111111111111111111");
     
 }
 
